@@ -1,0 +1,164 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0; /*no me funciona*/
+}
+body{
+font-family: arial;
+color: white;
+background-color: black;
+letter-spacing: 2px;
+word-break: 4px;
+}
+
+a{
+    color: black; /*para mantener siempre las letras negras en los vinculos*/
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*header*/
+header{
+    padding: 1px;
+    height: 160px; /*espaciado del encabezado*/ 
+}
+            header h1{  
+                text-align: center;  /*centra el encabezado*/
+                letter-spacing: 3px;
+                font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 52px;
+                margin-top: 30px;
+                background-color: black;
+                /*color: white;*/
+            /* padding: 8px;*/
+            }
+
+            header p{
+                text-align: center;
+                margin: top 30px;   
+    
+
+
+}
+header .Borde{
+    border-bottom: 3px solid #ffcc00; width: 5%; margin: 10px auto;       /*barra amarilla debajo del header*/
+}   
+                    nav.menu{ 
+                    font-size: medium;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: right;
+                    align-items: center;
+                    background-color: white;
+                    padding: 1px;
+                    }
+                    .logo{  /*logo natgeo header*/
+                        margin-right: 650px;
+                    }
+                    .link-login{  
+                        margin-right: 20px;                                                       /* se aleja de la etiqueta de lupita*/
+                        letter-spacing: 6px;                                                      /*espacio entre letra y letra*/
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  /*estilo letra*/
+                        font-size: 15px;                                                         /*tamaño letra*/
+                    }
+                    .link-search{                                                               /*clase lupita*/
+                        margin-right: 20px;
+                    }
+                            .joinBtn {  /*boton newsletter*/
+                                    margin-right: 20px;                                                      /*clase boton Newsletters*/
+                                    width: 10em;
+                                    height: 5ex;
+                                    background-color: white;
+                                    border: 2px solid white;
+                                    border-radius: 10px;
+                                    font-weight: bold;
+                                    color: black;
+                                    cursor: pointer;
+                                }           
+                                .joinBtn:hover {            /*hace que cambie de color*/                                 /*cambio de color del boton newsletter*/
+                                    background-color: #ffcc00;
+                                }/* cierra clase boton Newsletters*/
+                    .link-subs{
+                        margin-right: 20px;
+                        letter-spacing: 6px;
+                        font: weight 20px;
+                        font-family: Arial, Helvetica, sans-serif bold;
+                        font-size: 12px;
+                        color: white;
+                    background-color: black;
+                    padding: 16px; 
+                    }
+
+                    .link-menu{
+                        margin-right: 20px;
+                        color: black;
+                    }
+                    .link-angle{  
+                        margin-right: 20px;
+                        color:black;
+                    }
+
+/*news*/
+.main-news{
+    position: relative;  /*padre*/
+}   
+.main-news-text{ 
+    position:absolute;
+    top: 520px;
+    left: 425px; 
+    font-size:20px; 
+}
+.main-news-text h3{
+    text-transform: uppercase;
+    font-size: 17;
+}
+.main-news-text p{
+    font-size: 13px;    
+}
+.main-news-text .read-btn{ /*read icon*/
+    text-transform: uppercase;
+    color:white; 
+    font-size: 13px;
+}
+    /*secondary news*/
+    .secondary-news{
+        position: relative;  /*padre*/
+        padding: 2px;
+    }
+    .secondary-news-text{
+        background-color:white;
+        font-size: 50px;
+        color:black;
+        height: 65px; /*altura box*/
+        
+        margin: 5px auto; /*margen izq a derecha*/
+        margin-top: -5px;
+        margin-bottom: 1px; 
+        padding: 1px;
+        width: 448px;   
+    }
+    .secondary-news-text H3{
+        text-transform: uppercase;
+        font-size: 17px;
+        color: gray;  
+    }
+    .secondary-news-text p{
+    font-size: 13px;  
+    }
+    .secondary-news-text .read-btn{
+        text-transform: uppercase;
+        color:white; 
+        font-size: 13px;  
+    }
+.secondary-news .img-elephant{
+    margin-top: 30px;
+    height: 300px;
+    width: 450px;
+}
+
+
+
